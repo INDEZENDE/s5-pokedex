@@ -18,7 +18,7 @@ function paintPokemon(pokeData) {
   pokeData.forEach(item=>{
     output +=
     `<figure class = "${"imgs"}">
-      <img src = "${"https://pokeapi.co/media/sprites/pokemon/"}${count++}${".png"}">
+      <img src = "${"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"}${count++}${".png"}">
       <figcaption>${item.name}</figcaption>
       <figcaption>${item.url}</figcaption>
     </figure>`
