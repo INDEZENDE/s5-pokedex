@@ -1,4 +1,9 @@
+
+.container {
+  background-color: #FEDE00;
+}
 .imgs {
   display: inline-block;
   margin: 20px;
+  background-color: #2D71B8;
 }
